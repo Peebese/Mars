@@ -1,0 +1,30 @@
+{
+  "name": "philipbrown/mars",
+
+  "type": "application",
+
+  "description": "Navigate rovers around mars",
+
+  "license": "MIT",
+
+  "require": {
+    "php": "^7.1",
+    "php-di/php-di": "^6.0"
+  },
+
+  "require-dev": {
+    "phpunit/phpunit": "^7.3"
+  },
+
+  "autoload": {
+    "psr-4": {
+      "PhilipBrown\\Mars\\": "src/"
+    }
+  },
+
+  "autoload-dev": {
+    "psr-4": {
+      "PhilipBrown\\Mars\\Tests\\": "tests/"
+    }
+  }
+}
